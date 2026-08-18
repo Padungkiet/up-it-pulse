@@ -161,63 +161,79 @@ Which phases cover which requirements. Updated during roadmap creation.
 | AUTH-05 | Phase 1 | Pending |
 | TICK-01 | Phase 1 | Pending |
 | TICK-02 | Phase 1 | Pending |
-| TICK-03 | Phase 2 | Pending |
+| TICK-03 | Phase 1 | Pending |
 | TICK-04 | Phase 1 | Pending |
 | TICK-05 | Phase 1 | Pending |
 | TICK-06 | Phase 1 | Pending |
-| MASK-01 | Phase 3 | Pending |
-| MASK-02 | Phase 3 | Pending |
-| MASK-03 | Phase 3 | Pending |
-| MASK-04 | Phase 3 | Pending |
-| MASK-05 | Phase 3 | Pending |
-| AIAN-01 | Phase 4 | Pending |
-| AIAN-02 | Phase 4 | Pending |
-| AIAN-03 | Phase 4 | Pending |
-| AIAN-04 | Phase 4 | Pending |
-| AIAN-05 | Phase 4 | Pending |
-| AIAN-06 | Phase 4 | Pending |
-| AIAN-07 | Phase 4 | Pending |
-| RULE-01 | Phase 5 | Pending |
-| RULE-02 | Phase 5 | Pending |
-| RULE-03 | Phase 5 | Pending |
-| RULE-04 | Phase 5 | Pending |
-| SIM-01 | Phase 6 | Pending |
-| SIM-02 | Phase 6 | Pending |
-| SIM-03 | Phase 6 | Pending |
-| SIM-04 | Phase 6 | Pending |
-| SIM-05 | Phase 6 | Pending |
-| INCD-01 | Phase 7 | Pending |
-| INCD-02 | Phase 7 | Pending |
-| INCD-03 | Phase 7 | Pending |
-| INCD-04 | Phase 7 | Pending |
-| INCD-05 | Phase 7 | Pending |
-| INCD-06 | Phase 7 | Pending |
-| TRIAGE-01 | Phase 8 | Pending |
-| TRIAGE-02 | Phase 8 | Pending |
-| TRIAGE-03 | Phase 8 | Pending |
-| TRIAGE-04 | Phase 8 | Pending |
-| TRIAGE-05 | Phase 8 | Pending |
-| DRAFT-01 | Phase 8 | Pending |
-| DRAFT-02 | Phase 8 | Pending |
-| DRAFT-03 | Phase 8 | Pending |
-| DASH-01 | Phase 9 | Pending |
-| DASH-02 | Phase 9 | Pending |
+| MASK-01 | Phase 2 | Pending |
+| MASK-02 | Phase 2 | Pending |
+| MASK-03 | Phase 2 | Pending |
+| MASK-04 | Phase 2 | Pending |
+| MASK-05 | Phase 2 | Pending |
+| AIAN-01 | Phase 3 | Pending |
+| AIAN-02 | Phase 3 | Pending |
+| AIAN-03 | Phase 3 | Pending |
+| AIAN-04 | Phase 3 | Pending |
+| AIAN-05 | Phase 3 | Pending |
+| AIAN-06 | Phase 3 | Pending |
+| AIAN-07 | Phase 6 | Pending |
+| RULE-01 | Phase 3 | Pending |
+| RULE-02 | Phase 3 | Pending |
+| RULE-03 | Phase 3 | Pending |
+| RULE-04 | Phase 3 | Pending |
+| SIM-01 | Phase 4 | Pending |
+| SIM-02 | Phase 4 | Pending |
+| SIM-03 | Phase 4 | Pending |
+| SIM-04 | Phase 4 | Pending |
+| SIM-05 | Phase 4 | Pending |
+| INCD-01 | Phase 5 | Pending |
+| INCD-02 | Phase 5 | Pending |
+| INCD-03 | Phase 5 | Pending |
+| INCD-04 | Phase 5 | Pending |
+| INCD-05 | Phase 5 | Pending |
+| INCD-06 | Phase 5 | Pending |
+| TRIAGE-01 | Phase 6 | Pending |
+| TRIAGE-02 | Phase 6 | Pending |
+| TRIAGE-03 | Phase 6 | Pending |
+| TRIAGE-04 | Phase 6 | Pending |
+| TRIAGE-05 | Phase 6 | Pending |
+| DRAFT-01 | Phase 6 | Pending |
+| DRAFT-02 | Phase 6 | Pending |
+| DRAFT-03 | Phase 6 | Pending |
+| DASH-01 | Phase 7 | Pending |
+| DASH-02 | Phase 7 | Pending |
 | AUDIT-01 | Phase 1 | Pending |
 | AUDIT-02 | Phase 1 | Pending |
-| AUDIT-03 | Phase 9 | Pending |
-| SRCH-01 | Phase 9 | Pending |
-| SRCH-02 | Phase 9 | Pending |
-| SRCH-03 | Phase 9 | Pending |
-| EVAL-01 | Phase 10 | Pending |
-| EVAL-02 | Phase 10 | Pending |
-| EVAL-03 | Phase 10 | Pending |
-| EVAL-04 | Phase 10 | Pending |
+| AUDIT-03 | Phase 7 | Pending |
+| SRCH-01 | Phase 7 | Pending |
+| SRCH-02 | Phase 7 | Pending |
+| SRCH-03 | Phase 7 | Pending |
+| EVAL-01 | Phase 8 | Pending |
+| EVAL-02 | Phase 8 | Pending |
+| EVAL-03 | Phase 8 | Pending |
+| EVAL-04 | Phase 8 | Pending |
 
 **Coverage:**
-- v1 requirements: 54 total
-- Mapped to phases: 54
+- v1 requirements: 58 total
+- Mapped to phases: 58
 - Unmapped: 0 ✓
+- Duplicated across phases: 0 ✓
+
+**Per-phase distribution:**
+
+| Phase | Requirements | Count |
+|-------|--------------|-------|
+| 1. Foundation, Auth & Ticket Lifecycle | AUTH-01–05, TICK-01–06, AUDIT-01, AUDIT-02 | 13 |
+| 2. PII Masking Boundary | MASK-01–05 | 5 |
+| 3. AI Analysis & Rule Suggestions | AIAN-01–06, RULE-01–04 | 10 |
+| 4. Embedding & Similarity Search | SIM-01–05 | 5 |
+| 5. Incident Detection & Management | INCD-01–06 | 6 |
+| 6. Human Triage & AI Drafts | TRIAGE-01–05, AIAN-07, DRAFT-01–03 | 9 |
+| 7. Dashboard, Search, Export & Audit Viewer | DASH-01–02, SRCH-01–03, AUDIT-03 | 6 |
+| 8. Evaluation Harness & Demo Readiness | EVAL-01–04 | 4 |
+
+*Note: the previous coverage figure of 54 was a miscount — the requirement list contains 58 v1 items.*
 
 ---
 *Requirements defined: 2026-08-18*
-*Last updated: 2026-08-18 after initial definition*
+*Last updated: 2026-08-18 after roadmap creation (traceability mapped to 8 phases)*
